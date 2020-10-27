@@ -170,6 +170,8 @@ toolchain {
   compiler_flag: "-isystem"
   compiler_flag: "external/crosstool_ng_linux_arm_64v8/lib/gcc/aarch64-linux-gnu/8.3.0/include"
   compiler_flag: "-isystem"
+  compiler_flag: "external/crosstool_ng_linux_arm_64v8/aarch64-linux-gnu/libc/usr/include"
+  compiler_flag: "-isystem"
   compiler_flag: "external/crosstool_ng_linux_arm_64v8/lib/gcc/aarch64-linux-gnu/8.3.0/include-fixed"
   compiler_flag: "-isystem"
   compiler_flag: "external/crosstool_ng_linux_arm_64v8/aarch64-linux-gnu/sysroot/usr/include"
