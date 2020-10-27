@@ -12,9 +12,9 @@ def repositories():
     http_archive(
         name = "crosstool_ng_linux_arm_64v8",
         build_file = str(Label("//:crosstool_ng/linux_arm_64v8.BUILD")),
-        sha256 = "14ad5794e8ffc1a449ae8d83b80d0647363a53ca166959dbf2224f53c2296e0b",
-        strip_prefix = "aarch64-unknown-linux-gnueabi/",
-        url = "https://storage.googleapis.com/vertexai-depot/aarch64-unknown-linux-gnueabi.tgz",
+        sha256 = "8ce3e7688a47d8cd2d8e8323f147104ae1c8139520eca50ccf8a7fa933002731",
+        strip_prefix = "gcc-arm-8.3-2019.03-x86_64-aarch64-linux-gnu",
+        url = "https://storage.googleapis.com/mirror.tensorflow.org/developer.arm.com/media/Files/downloads/gnu-a/8.3-2019.03/binrel/gcc-arm-8.3-2019.03-x86_64-aarch64-linux-gnu.tar.xz",
     )
 
     http_archive(
